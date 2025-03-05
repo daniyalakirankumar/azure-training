@@ -1,0 +1,9 @@
+{
+	"name": "trainingdata123",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ac3539c1-f82f-4658-bd66-1ee55694c330",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}
