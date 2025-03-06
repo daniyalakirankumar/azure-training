@@ -9,8 +9,8 @@
 		"type": "AzureSqlTable",
 		"schema": [],
 		"typeProperties": {
-			"schema": "dbo",
-			"table": "Users"
+			"schema": "stage",
+			"table": "user_data"
 		}
 	}
 }
