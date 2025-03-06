@@ -1,0 +1,25 @@
+{
+	"name": "DemoTrigger",
+	"properties": {
+		"description": "Trigger",
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_LoadMultipleFiles",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 15,
+				"startTime": "2025-03-06T12:52:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
