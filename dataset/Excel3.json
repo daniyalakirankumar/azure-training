@@ -10,8 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "Country.csv",
-				"folderPath": "ADF Assessment - March 2025",
+				"folderPath": "ADF Assessment - March 2025/Order Details",
 				"container": "inputcontainer"
 			}
 		},
