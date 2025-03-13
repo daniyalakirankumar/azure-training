@@ -1,0 +1,29 @@
+{
+	"name": "SqlServerTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "product id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PRODUCT_Family",
+				"type": "nvarchar"
+			},
+			{
+				"name": "product sub family",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "products"
+		}
+	}
+}
