@@ -5,12 +5,20 @@
 			"referenceName": "SqlServer1",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"source_table": {
+				"type": "String"
+			}
+		},
 		"annotations": [],
 		"type": "SqlServerTable",
 		"schema": [],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "products"
+			"table": {
+				"value": "@dataset().source_table",
+				"type": "Expression"
+			}
 		}
 	}
 }

@@ -5,12 +5,20 @@
 			"referenceName": "Snowflake1",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"sink_table": {
+				"type": "String"
+			}
+		},
 		"annotations": [],
 		"type": "SnowflakeV2Table",
 		"schema": [],
 		"typeProperties": {
 			"schema": "STAGING",
-			"table": "PRODUCTS"
+			"table": {
+				"value": "@dataset().sink_table",
+				"type": "Expression"
+			}
 		}
 	}
 }
