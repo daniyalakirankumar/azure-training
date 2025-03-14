@@ -4,14 +4,7 @@
 		"description": "Trigger",
 		"annotations": [],
 		"runtimeState": "Stopped",
-		"pipelines": [
-			{
-				"pipelineReference": {
-					"referenceName": "pl_LoadMultipleFiles",
-					"type": "PipelineReference"
-				}
-			}
-		],
+		"pipelines": [],
 		"type": "ScheduleTrigger",
 		"typeProperties": {
 			"recurrence": {
